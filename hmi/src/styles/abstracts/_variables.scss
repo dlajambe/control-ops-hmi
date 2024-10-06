@@ -1,12 +1,20 @@
 $c-green: #9FE9A8;
 $c-red: #FF6565;
+$c-yellow: #FFFF00;
 
-$shading-frac: 20%;
+/*$shading-frac: 20%;
 $c-neutral-100: #262626;
 $c-neutral-200: lighten($c-neutral-100, $shading-frac);
 $c-neutral-300: lighten($c-neutral-200, $shading-frac);
 $c-neutral-400: lighten($c-neutral-300, $shading-frac);
-$c-neutral-500: lighten($c-neutral-400, $shading-frac);
+$c-neutral-500: lighten($c-neutral-400, $shading-frac);*/
+
+$shading-frac: 20%;
+$c-neutral-100: #262626;
+$c-neutral-200: adjust-color($c-neutral-100, $lightness: $shading-frac);
+$c-neutral-300: adjust-color($c-neutral-200, $lightness: $shading-frac);
+$c-neutral-400: adjust-color($c-neutral-300, $lightness: $shading-frac);
+$c-neutral-500: adjust-color($c-neutral-400, $lightness: $shading-frac);
 
 // Semantically named colours
 $text-colour-light: $c-neutral-500;
