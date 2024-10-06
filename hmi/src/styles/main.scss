@@ -1,0 +1,17 @@
+// Abstracts
+@import 'abstracts/_variables';
+
+
+@media (prefers-color-scheme: dark) {
+  @import 'themes/dark';
+}
+
+@media (prefers-color-scheme: light) {
+  @import 'themes/light';
+}
+
+@media (prefers-color-scheme: no-preference) {
+  @import 'themes/light';
+}
+
+@import 'base.scss';

@@ -1,0 +1,16 @@
+$c-green: #9FE9A8;
+$c-red: #FF6565;
+
+$shading-frac: 20%;
+$c-neutral-100: #262626;
+$c-neutral-200: lighten($c-neutral-100, $shading-frac);
+$c-neutral-300: lighten($c-neutral-200, $shading-frac);
+$c-neutral-400: lighten($c-neutral-300, $shading-frac);
+$c-neutral-500: lighten($c-neutral-400, $shading-frac);
+
+// Semantically named colours
+$text-colour-light: $c-neutral-500;
+$text-colour-dark: $c-neutral-100;
+
+$background-colour-dark: $c-neutral-100;
+$background-colour-light: $c-neutral-500;
