@@ -9,12 +9,11 @@ $c-neutral-300: lighten($c-neutral-200, $shading-frac);
 $c-neutral-400: lighten($c-neutral-300, $shading-frac);
 $c-neutral-500: lighten($c-neutral-400, $shading-frac);*/
 
-$shading-frac: 20%;
-$c-neutral-100: #262626;
-$c-neutral-200: adjust-color($c-neutral-100, $lightness: $shading-frac);
-$c-neutral-300: adjust-color($c-neutral-200, $lightness: $shading-frac);
-$c-neutral-400: adjust-color($c-neutral-300, $lightness: $shading-frac);
-$c-neutral-500: adjust-color($c-neutral-400, $lightness: $shading-frac);
+$c-neutral-100: #171717;
+$c-neutral-200: adjust-color($c-neutral-100, $lightness: 6%);
+$c-neutral-300: adjust-color($c-neutral-100, $lightness: 30%);
+$c-neutral-400: adjust-color($c-neutral-100, $lightness: 55%);
+$c-neutral-500: adjust-color($c-neutral-100, $lightness: 80%);
 
 // Semantically named colours
 $text-colour-light: $c-neutral-500;
