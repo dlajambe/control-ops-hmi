@@ -1,5 +1,5 @@
 {
-  "name": "hmi",
+  "name": "control-ops-hmi",
   "version": "0.0.0",
   "private": true,
   "type": "module",
