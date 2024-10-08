@@ -1,22 +1,20 @@
 <script setup lang="ts">
-
 import { computed } from 'vue'
 
 const props = defineProps<{
-  badKpi: boolean,
+  badKpi: boolean
   missingData: boolean
-}>();
+}>()
 
 const dotColour = computed(() => {
   if (props.badKpi) {
-    return 'red';
+    return 'red'
   } else if (props.missingData) {
-    return 'yellow';
+    return 'yellow'
   } else {
     return 'green'
   }
-});
-
+})
 </script>
 
 <template>
@@ -43,5 +41,4 @@ const dotColour = computed(() => {
 .yellow {
   background-color: $c-yellow;
 }
-
 </style>

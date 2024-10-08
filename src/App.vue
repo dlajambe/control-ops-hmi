@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div id="app">
@@ -10,5 +8,4 @@
 
 <style scoped lang="scss">
 @import 'styles/abstracts/variables';
-
 </style>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import Sidebar from '@/components/Sidebar.vue'
 </script>
 
@@ -30,6 +29,4 @@ import Sidebar from '@/components/Sidebar.vue'
     background-color: $c-neutral-200;
   }
 }
-
-
 </style>

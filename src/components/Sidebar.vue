@@ -1,13 +1,10 @@
 <script setup lang="ts">
-
 import SidebarItem from '@/components/SidebarItem.vue'
 </script>
 
 <template>
   <div class="sidebar">
-    <header>
-      controlOps
-    </header>
+    <header>controlOps</header>
     <SidebarItem title="Tar Removal" :bad-kpi="true" :missing-data="false"></SidebarItem>
     <SidebarItem title="Ammonia" :bad-kpi="false" :missing-data="false"></SidebarItem>
     <SidebarItem title="Light Oil" :bad-kpi="false" :missing-data="false"></SidebarItem>
@@ -15,6 +12,4 @@ import SidebarItem from '@/components/SidebarItem.vue'
   </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
