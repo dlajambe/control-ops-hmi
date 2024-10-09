@@ -2,9 +2,13 @@
 import { computed } from 'vue'
 
 const props = defineProps<{
-  badKpi: boolean
-  missingData: boolean
+  badKpi: Boolean
+  missingData: Boolean
 }>()
+
+if (props.badKpi == true && props.missingData == true) {
+  throw new Error('Invalid combination; only one of badKpi and missingData can be true')
+}
 
 const dotColour = computed(() => {
   if (props.badKpi) {
