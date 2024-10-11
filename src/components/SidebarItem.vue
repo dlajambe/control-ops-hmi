@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import StatusDot from '@/components/StatusDot.vue'
+import StatusDot from '@/components/StatusDot.vue';
 
 const props = defineProps<{
-  title: string
-  badKpi: boolean
-  missingData: boolean
-}>()
+  title: string;
+  badKpi: boolean;
+  missingData: boolean;
+}>();
 </script>
 
 <template>
